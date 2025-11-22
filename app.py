@@ -32,6 +32,7 @@ full_html = f"""
     </div>
 """
 
-components.html(full_html, height=3800, scrolling=False)
+components.html(full_html, height=3830, scrolling=False)
+
 
 
