@@ -521,6 +521,13 @@
             } else {
                 dayBox.classList.add('off');
             }
+            dayBox.addEventListener('click', () => {
+                alert(
+                    `Turno J${details.shiftNum} (D${details.day}${details.shiftInitial})\n` +
+                    `Horario: ${details.shiftTime}\n` +
+                    `Estado: ${status}`
+                );
+            });
             scheduleVisualization.appendChild(dayBox);
         });
         
@@ -695,4 +702,5 @@
 </script>
 
 </body>
+
 </html>
